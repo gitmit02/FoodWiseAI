@@ -51,7 +51,7 @@ export default function AnalyzeWaste() {
       setResult(data);
     } catch (err) {
       setError(
-        "Could not reach the FoodWise AI server. Make sure the backend is running on port 5000."
+        "Could not reach the FoodWise AI server. Make sure the backend is running."
       );
     } finally {
       setLoading(false);
